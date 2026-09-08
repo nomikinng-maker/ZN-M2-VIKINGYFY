@@ -6,6 +6,9 @@ CONFIG_PACKAGE_luci-app-gecoosac=n
 CONFIG_PACKAGE_luci-app-upnp=n
 CONFIG_PACKAGE_luci-app-wolplus=y
 CONFIG_PACKAGE_luci-app-p910nd=y
+CONFIG_PACKAGE_luci-app-netdiscover=y
+CONFIG_PACKAGE_luci-app-avahi=y
+CONFIG_PACKAGE_avahi-dbus-daemon=y
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
