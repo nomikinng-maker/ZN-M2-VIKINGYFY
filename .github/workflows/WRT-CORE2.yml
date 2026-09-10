@@ -228,7 +228,7 @@ jobs:
           tag_name: 精简版${{env.WRT_CONFIG}}-${{env.WRT_INFO}}-${{env.WRT_BRANCH}}-${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个ZN-M2无WiFi无usb的固件包！
+            这是个ZN-M2无WiFi固件包, usb功能集成磁盘驱动和p910nd！
             请注意选择，不要选错！
 
             全系带开源硬件加速！
