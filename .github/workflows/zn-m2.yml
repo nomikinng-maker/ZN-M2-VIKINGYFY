@@ -33,7 +33,7 @@ jobs:
       #max-parallel: 3
       matrix:
         #CONFIG: [./config/IPQ60XX-WIFI-NO-ZN-M2]
-        CONFIG: [../Config/IPQ60XX-WIFI-NO-ZN-M2]
+        CONFIG: [IPQ60XX-WIFI-NO-ZN-M2]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
