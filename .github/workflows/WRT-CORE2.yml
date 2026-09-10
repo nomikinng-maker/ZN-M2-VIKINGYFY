@@ -243,8 +243,5 @@ jobs:
             登录地址：${{env.WRT_IP}}
             登录密码：password或者  ${{env.WRT_PW}}
 
-            WIFI名称：${{env.WRT_SSID}}  （无WiFi版本没有）
-            WIFI密码：${{env.WRT_WORD}}  （无WiFi版本没有）
-
             内核版本：${{env.WRT_KVER}}
             插件列表：${{env.WRT_LIST}}
