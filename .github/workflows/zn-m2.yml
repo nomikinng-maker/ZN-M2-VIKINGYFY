@@ -33,7 +33,7 @@ jobs:
       #max-parallel: 3
       matrix:
         #CONFIG: [./config/IPQ60XX-WIFI-NO-ZN-M2]
-        CONFIG: [$GITHUB_WORKSPACE/config/IPQ60XX-WIFI-NO-ZN-M2]
+        CONFIG: [./config/IPQ60XX-WIFI-NO-ZN-M2]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
